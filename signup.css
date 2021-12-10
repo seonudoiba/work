@@ -1,0 +1,74 @@
+.mainbody{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: rgb(115, 172, 238);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mytitle{
+    text-align: center;
+    padding: 5px;
+    font-size: 3rem;
+}
+.mainbackground{
+    background-color: rgb(250, 250, 255);
+    width: 60vw;
+    height: 800px;
+    margin: 0px 0px 100px 0px;
+    border-radius: 20px;
+}
+.mainbackground > p{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6em;
+}
+input, textarea{
+    border: black solid 1px;
+    border-radius: 5%;
+    width: 30%;
+}
+.lab1, .lab2, .lab3, .lab4, .lab5, .lab6, .lab7 {
+    width: 45%;
+    margin: 20px;
+    text-align: end;
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7{
+    width: 90%;
+    height: fit-content;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+}
+.diva, .divb, .divc, .divd, .dive, .divf, .divg{
+    width: 40%;
+    margin: 10px;
+    text-align: right;
+}
+.diver, .diver2{
+    width: 150px;
+    margin: 0px;
+}
+
+button{
+    display: flex;
+    margin-left: 500px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 13px;
+    width: 100px;
+    color: white;
+    background-color: rgb(77, 77, 206);
+}
+
+button:hover{
+    color: rgb(77, 77, 206);
+    background-color: white;
+}
